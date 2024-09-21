@@ -1,0 +1,16 @@
+p{
+    color:white;
+    background-color:  green;
+    font-size: 20px;
+    font-style:italic;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin: 10px;
+    border: 2px solid red;
+    float:left;
+    position: relative
+}

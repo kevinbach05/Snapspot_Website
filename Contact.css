@@ -1,0 +1,96 @@
+/* General styles for the contact section background and alignment */
+.contact-section {
+    background-color: #e0f7f9; /* Light pastel background similar to your website */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact card style */
+.contact-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on contact card */
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading inside the card */
+.contact-card h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph inside the card */
+.contact-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact form input fields */
+.contact-card input,
+.contact-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling to match the "Book Now" buttons */
+.contact-card button {
+    background-color: #6f42c1; /* Matching the purple button from your website */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-card button:hover {
+    background-color: #5b34a0; /* Slightly darker purple on hover */
+}
+
+/* Footer for additional text like address */
+.contact-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+/* Social Links Styling */
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #6f42c1; /* Match the purple theme */
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #5b34a0; /* Darken color on hover */
+}
+
+.social-links i {
+    margin-right: 8px;
+    font-size: 24px;
+    vertical-align: middle;
+}
